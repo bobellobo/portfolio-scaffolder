@@ -1,4 +1,4 @@
-import rawTheme from '@content/config/theme.json'
+import rawTheme from '@content/config/earthyTheme.json'
 
 type ThemeVars = Record<string, string>
 
@@ -11,7 +11,9 @@ interface FontConfig {
 
 interface ThemeConfig {
   fonts?: FontConfig
-  light: ThemeVars
+    shape?: Record<string, string>
+    spacing?: Record<string, string>
+    light: ThemeVars
   dark: ThemeVars
 }
 
@@ -36,12 +38,19 @@ export function applyThemeConfig(): void {
     document.head.appendChild(link)
   }
 
-  const fontVars: string[] = []
-  if (config.fonts?.bodyFont) fontVars.push(`  --body-font: ${config.fonts.bodyFont};`)
-  if (config.fonts?.headingFont) fontVars.push(`  --heading-font: ${config.fonts.headingFont};`)
+    const rootVars: string[] = []
+    if (config.fonts?.bodyFont) rootVars.push(`  --body-font: ${config.fonts.bodyFont};`)
+    if (config.fonts?.headingFont) rootVars.push(`  --heading-font: ${config.fonts.headingFont};`)
+
+    for (const block of [config.shape, config.spacing]) {
+      if (!block) continue
+      for (const [key, value] of Object.entries(block)) {
+        if (!key.startsWith('_') && value) rootVars.push(`  ${toCssVarName(key)}: ${value};`)
+      }
+    }
 
   const blocks: string[] = []
-  if (fontVars.length > 0) blocks.push(`:root {\n${fontVars.join('\n')}\n}`)
+    if (rootVars.length > 0) blocks.push(`:root {\n${rootVars.join('\n')}\n}`)
   blocks.push(buildCssBlock(':root', config.light))
   blocks.push(buildCssBlock("[data-theme='dark']", config.dark))
 

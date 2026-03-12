@@ -26,6 +26,22 @@ This is the active theme file loaded by the site.
 | `headingFont` | Font stack used for headings (`h1`, `h2`, `h3`) |
 | `googleFontsUrl` | The Google Fonts stylesheet URL to load the above fonts. Set to `""` if you want to use system fonts or self-host |
 
+### `shape`
+
+| Field | What it controls |
+|---|---|
+| `radiusPill` | Navbar bar, language selector, theme toggle, circular icon buttons. Set to `9999px` for a floating pill navbar, or a small value (e.g. `0.6rem`) for a rectangular bar |
+| `radiusLg` | Modal windows, mobile nav dropdown |
+| `radiusMd` | Content cards, dropdown menu items, nav link hover backgrounds |
+| `radiusSm` | Primary and secondary action buttons, tooltips |
+| `radiusTag` | Skill/technology tag chips. Set to `0px` for sharp rectangular tags |
+
+### `spacing`
+
+| Field | What it controls |
+|---|---|
+| `sectionPaddingY` | Vertical padding applied to every section block. The value is scaled proportionally at smaller screen sizes. Use a larger value (e.g. `8rem`) for an airy layout or smaller (e.g. `4rem`) for a denser one |
+
 ### `light` and `dark`
 
 Each block defines the color palette for light and dark mode respectively. All values accept any valid CSS color (`#rrggbb`, `rgb()`, `rgba()`, `hsl()`, etc.).
@@ -55,16 +71,25 @@ Each block defines the color palette for light and dark mode respectively. All v
 
 ---
 
-## `alternativeTheme.json` — Example alternative theme
+## `alternativeTheme.json` — Amber/violet theme
 
-A ready-made alternative theme (warm amber/slate in light mode, deep violet in dark mode) provided as a starting point. To activate it, open `src/content/data/theme.ts` and change line 1:
+A warm amber/slate light mode paired with a deep violet dark mode, using **Inter + Playfair Display** fonts.
+
+## `earthyTheme.json` — Terracotta/espresso theme
+
+A warm editorial theme with a cream/terracotta light mode and a deep espresso/coral dark mode, using **Lora + Raleway** serif fonts. Drastically different in character from the blue/tech look of the default theme.
+
+To activate any of these alternative themes, open `src/content/data/theme.ts` and change line 1:
 
 ```ts
-// from
+// default
 import rawTheme from '@content/config/theme.json'
 
-// to
+// amber/violet
 import rawTheme from '@content/config/alternativeTheme.json'
+
+// terracotta/espresso
+import rawTheme from '@content/config/earthyTheme.json'
 ```
 
-You can also duplicate either file, rename it, and point the import to your own file to create a fully custom theme.
+You can also duplicate any of these files, rename it, and point the import to your own file to create a fully custom theme.

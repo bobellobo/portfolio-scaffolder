@@ -6,7 +6,19 @@
     "headingFont": "'Manrope', sans-serif",
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
   },
-  "light": {
+    "shape": {
+      "_comment": "Border radii. 9999px = full pill, 0px = sharp corners. radiusPill: navbar & circular buttons; radiusLg: modals & dropdowns; radiusMd: cards; radiusSm: action buttons; radiusTag: skill/tech tags.",
+      "radiusPill": "9999px",
+      "radiusLg": "1rem",
+      "radiusMd": "0.75rem",
+      "radiusSm": "0.5rem",
+      "radiusTag": "0.3rem"
+    },
+    "spacing": {
+      "_comment": "Vertical padding of each section. Increase for an airy layout, decrease for a denser one.",
+      "sectionPaddingY": "6rem"
+    },
+    "light": {
     "_comment": "Colors used in light mode (default)",
     "primaryColor": "#0066ff",
     "secondaryColor": "#0047cc",

@@ -18,7 +18,7 @@
   padding: 0.8rem 1rem;
   background-color: color-mix(in srgb, var(--surface-navbar) 90%, transparent);
   border: 1px solid var(--border-color);
-  border-radius: 999px;
+    border-radius: var(--radius-pill);
   box-shadow: var(--shadow);
   backdrop-filter: blur(8px);
 }
@@ -76,7 +76,7 @@
   height: 2.2rem;
   padding: 0 0.62rem 0 0.52rem;
   border: 2px solid var(--border-color);
-  border-radius: 999px;
+    border-radius: var(--radius-pill);
   background-color: var(--bg-white);
   color: var(--text-dark);
   text-decoration: none;
@@ -122,7 +122,7 @@
   opacity: 0;
   pointer-events: none;
   padding: 0.32rem 0.55rem;
-  border-radius: 0.4rem;
+    border-radius: var(--radius-sm);
   border: 1px solid var(--border-color);
   background-color: color-mix(in srgb, var(--surface-navbar) 96%, transparent);
   color: var(--text-dark);
@@ -169,7 +169,7 @@
   font-size: 0.85rem;
   font-weight: 600;
   font-family: 'Geist Mono', monospace;
-  border-radius: 999px;
+    border-radius: var(--radius-pill);
   cursor: pointer;
   transition: border-color 0.25s ease, color 0.25s ease, background-color 0.25s ease, transform 0.25s ease;
   min-height: 2.2rem;
@@ -228,7 +228,7 @@
   list-style: none;
   background-color: color-mix(in srgb, var(--surface-navbar) 94%, transparent);
   border: 1px solid var(--border-color);
-  border-radius: 0.9rem;
+    border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
   backdrop-filter: blur(8px);
   z-index: 20;
@@ -243,7 +243,7 @@
   font-family: 'Geist Mono', monospace;
   font-size: 0.82rem;
   font-weight: 600;
-  border-radius: 0.6rem;
+    border-radius: var(--radius-md);
   padding: 0.48rem 0.62rem;
   cursor: pointer;
   transition: color 0.2s ease, background-color 0.2s ease;
@@ -268,7 +268,7 @@
   background-color: transparent;
   color: var(--text-dark);
   border: 2px solid var(--border-color);
-  border-radius: 999px;
+    border-radius: var(--radius-pill);
   cursor: pointer;
   padding: 0.2rem;
   line-height: 1;
@@ -329,7 +329,7 @@
   width: 2.2rem;
   height: 2.2rem;
   border: 2px solid var(--border-color);
-  border-radius: 999px;
+    border-radius: var(--radius-pill);
   background-color: var(--bg-white);
   color: var(--text-dark);
   align-items: center;
@@ -410,7 +410,7 @@
     align-items: center;
     gap: 0.65rem;
     padding: 0.65rem 0.85rem;
-    border-radius: 999px;
+      border-radius: var(--radius-pill);
   }
 
   .logo {
@@ -433,7 +433,7 @@
     font-size: 0.9rem;
     background-color: color-mix(in srgb, var(--surface-navbar) 94%, transparent);
     border: 1px solid var(--border-color);
-    border-radius: 1rem;
+      border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg);
     backdrop-filter: blur(8px);
     z-index: 30;
@@ -448,7 +448,7 @@
     min-height: 2.2rem;
     text-align: center;
     justify-content: center;
-    border-radius: 0.6rem;
+     border-radius: var(--radius-md);
   }
 
   .nav-links .mobile-controls-row .export-link {
@@ -457,7 +457,7 @@
     min-height: 2.2rem;
     padding: 0;
     justify-content: center;
-    border-radius: 999px;
+     border-radius: var(--radius-pill);
   }
 
   .nav-links .mobile-controls-row .export-label {

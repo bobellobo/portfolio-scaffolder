@@ -1,0 +1,71 @@
+{
+  "_readme": "Edit these values to customize your portfolio's colors and fonts. Use any valid CSS color (hex #rrggbb, rgb(), rgba(), hsl(), etc.) for colors.",
+  "fonts": {
+    "_comment": "Warm editorial feel — Lora serif body, Raleway display headings.",
+    "bodyFont": "'Lora', serif",
+    "headingFont": "'Raleway', sans-serif",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Raleway:wght@400;500;600;700;800&display=swap"
+  },
+    "shape": {
+      "_comment": "Very rounded, organic layout — generous curves on all elements.",
+      "radiusPill": "9999px",
+      "radiusLg": "1.5rem",
+      "radiusMd": "1.25rem",
+      "radiusSm": "1rem",
+      "radiusTag": "0.75rem"
+    },
+    "spacing": {
+      "_comment": "Vertical padding of each section.",
+      "sectionPaddingY": "7rem"
+    },
+    "light": {
+    "_comment": "Warm terracotta / cream palette",
+    "primaryColor": "#c0392b",
+    "secondaryColor": "#96281b",
+    "textDark": "#2c1810",
+    "textLight": "#7a5c52",
+    "bgLight": "#fdf6f0",
+    "bgWhite": "#fffaf7",
+    "surfacePage": "#f5ede4",
+    "surfaceSection": "#fffaf7",
+    "surfaceSectionMuted": "#fdf6f0",
+    "surfaceHeader": "#f0e0d4",
+    "surfaceNavbar": "#fffaf7",
+    "borderColor": "#e8d5c8",
+    "shadow": "0 4px 6px rgba(80, 30, 20, 0.1)",
+    "shadowLg": "0 10px 15px rgba(80, 30, 20, 0.12)",
+    "textOnBrand": "#ffffff",
+    "heroSubtext": "rgba(255, 255, 255, 0.92)",
+    "footerBg": "#2c1810",
+    "footerText": "rgba(255, 220, 200, 0.85)",
+    "projectPlaceholderStart": "#e8d5c8",
+    "projectPlaceholderEnd": "#d9c0b0",
+    "overlayColor": "rgba(44, 24, 16, 0.55)",
+    "focusRing": "rgba(192, 57, 43, 0.35)"
+  },
+  "dark": {
+    "_comment": "Deep espresso / warm coral palette",
+    "primaryColor": "#ff6b4a",
+    "secondaryColor": "#e55a3c",
+    "textDark": "#fdf0e8",
+    "textLight": "#c9a898",
+    "bgLight": "#1f1410",
+    "bgWhite": "#2a1c16",
+    "surfacePage": "#160e0b",
+    "surfaceSection": "#1e1310",
+    "surfaceSectionMuted": "#241815",
+    "surfaceHeader": "#110a08",
+    "surfaceNavbar": "#1f1410",
+    "borderColor": "#3d2820",
+    "shadow": "0 4px 6px rgba(0, 0, 0, 0.5)",
+    "shadowLg": "0 10px 15px rgba(0, 0, 0, 0.55)",
+    "textOnBrand": "#ffffff",
+    "heroSubtext": "rgba(255, 255, 255, 0.92)",
+    "footerBg": "#0d0806",
+    "footerText": "rgba(255, 210, 190, 0.7)",
+    "projectPlaceholderStart": "#3d2820",
+    "projectPlaceholderEnd": "#4f3428",
+    "overlayColor": "rgba(0, 0, 0, 0.68)",
+    "focusRing": "rgba(255, 107, 74, 0.4)"
+  }
+}

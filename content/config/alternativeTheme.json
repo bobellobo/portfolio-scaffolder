@@ -6,7 +6,19 @@
     "headingFont": "'Playfair Display', serif",
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap"
   },
-  "light": {
+    "shape": {
+      "_comment": "Sharp, angular layout — no pill shapes, tight corner radii everywhere.",
+      "radiusPill": "0.6rem",
+      "radiusLg": "0.5rem",
+      "radiusMd": "0.375rem",
+      "radiusSm": "0.25rem",
+      "radiusTag": "0px"
+    },
+    "spacing": {
+      "_comment": "Vertical padding of each section.",
+      "sectionPaddingY": "5rem"
+    },
+    "light": {
     "_comment": "Colors used in light mode (default) — warm amber/slate palette",
     "primaryColor": "#d97706",
     "secondaryColor": "#b45309",
