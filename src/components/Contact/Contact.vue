@@ -4,14 +4,15 @@
       <h2 class="section-title">{{ $t('contact.title') }}</h2>
       <p>{{ $t('contact.description') }}</p>
       <div class="contact-links">
-        <a :href="profileIdentity.linkedinUrl" target="_blank" rel="noreferrer" class="contact-button">
-          {{ $t('footer.links.linkedin') }}
-        </a>
-        <a :href="profileIdentity.githubUrl" target="_blank" rel="noreferrer" class="contact-button">
-          {{ $t('footer.links.github') }}
-        </a>
-        <a :href="emailLink" target="_blank" rel="noreferrer" class="contact-button">
-          {{ $t('footer.links.email') }}
+        <a
+          v-for="link in contactLinks"
+          :key="`${link.label}-${link.url}`"
+          :href="link.url"
+          target="_blank"
+          rel="noreferrer"
+          class="contact-button"
+        >
+          {{ link.label }}
         </a>
       </div>
     </div>
@@ -20,10 +21,12 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import { getProfileIdentity } from '../../content/data/profile'
+import { useI18n } from 'vue-i18n'
+import { getSupportedLocale } from '../../content/locale'
+import { getContactLinksForContactSection } from '../../content/data/profile'
 
-const profileIdentity = getProfileIdentity()
-const emailLink = computed(() => `mailto:${profileIdentity.email}`)
+const { locale } = useI18n()
+const contactLinks = computed(() => getContactLinksForContactSection(getSupportedLocale(locale.value)))
 </script>
 
 <style scoped src="./Contact.css"></style>

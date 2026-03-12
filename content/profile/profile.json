@@ -3,9 +3,33 @@
     "fullName": "Your Name",
     "email": "you@example.com",
     "linkedinUrl": "https://www.linkedin.com/in/your-handle/",
-    "githubUrl": "https://github.com/your-username",
     "portfolioUrl": "https://your-username.github.io/your-portfolio/"
   },
+  "contactLinks": [
+    {
+      "label": {
+        "en": "Email",
+        "fr": "Email"
+      },
+      "url": "mailto:you@example.com",
+      "display": "you@example.com"
+    },
+    {
+      "label": {
+        "en": "LinkedIn",
+        "fr": "LinkedIn"
+      },
+      "url": "https://www.linkedin.com/in/your-handle/"
+    },
+    {
+      "label": {
+        "en": "Portfolio",
+        "fr": "Portfolio"
+      },
+      "url": "https://your-username.github.io/your-portfolio/",
+      "includeInExport": false
+    }
+  ],
   "content": {
     "en": {
       "description": "Hi there!\nI'm a full-stack developer trained at {{link:https://example.edu|Your University}}. I enjoy building maintainable web products with a strong focus on usability, clean architecture, and performance.\n\nUse this section to introduce your background, your strongest technical skills, and the type of opportunities you are looking for.",

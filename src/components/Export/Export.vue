@@ -39,13 +39,11 @@
           </div>
         </div>
         <ul class="resume-links" :aria-label="$t('exportView.contactLinks')">
-          <li><a :href="emailLink">{{ profileIdentity.email }}</a></li>
-          <li>
-            <a :href="profileIdentity.linkedinUrl" target="_blank" rel="noopener noreferrer">
-              LinkedIn
+          <li v-for="link in exportContactLinks" :key="`${link.label}-${link.url}`">
+            <a :href="link.url" target="_blank" rel="noopener noreferrer">
+              {{ link.display ?? link.label }}
             </a>
           </li>
-          <li><a :href="profileIdentity.githubUrl" target="_blank" rel="noopener noreferrer">GitHub</a></li>
         </ul>
       </header>
 
@@ -104,7 +102,7 @@ import { useI18n } from 'vue-i18n'
 import InlineRichText from '../Common/InlineRichText.vue'
 import { useExperiencesData } from '../../content/data/experiences'
 import { useSkillsData } from '../../content/data/skills'
-import { getProfileContent, getProfileIdentity } from '../../content/data/profile'
+import { getContactLinksForExport, getProfileContent, getProfileIdentity } from '../../content/data/profile'
 import { getSupportedLocale } from '../../content/locale'
 import profilePhoto from '../../../content/projects/images/business-portfolio-icon.avif'
 
@@ -118,8 +116,8 @@ const profileIdentity = getProfileIdentity()
 
 const currentLocale = computed(() => getSupportedLocale(locale.value))
 const exportProfileDescription = computed(() => getProfileContent(currentLocale.value).exportDescription)
+const exportContactLinks = computed(() => getContactLinksForExport(currentLocale.value))
 const portfolioHomeLink = import.meta.env.BASE_URL
-const emailLink = computed(() => `mailto:${profileIdentity.email}`)
 
 const languageSwitchLabel = computed(() => (locale.value === 'fr' ? 'EN' : 'FR'))
 const languageSwitchTitle = computed(() => (
