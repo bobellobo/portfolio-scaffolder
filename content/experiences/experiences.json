@@ -3,18 +3,18 @@
     "id": 1,
     "content": {
       "en": {
-        "period": "Jan 2024 — Jan 2026",
+        "period": "Jan 2024 — Present",
         "role": "Full-stack Engineer",
-        "company": "STMicroelectronics - System Research & Application",
-        "location": "Catania, Italy",
-        "description": "Designed and delivered tools end-to-end, from architecture to deployment, with a great care for clean interfaces and performance. Strong emphasis on functional programming paradigms and development best practices."
+        "company": "Sample Company",
+        "location": "City, Country",
+        "description": "Describe your most recent role here. Mention your scope, key technical responsibilities, and measurable outcomes."
       },
       "fr": {
-        "period": "Janvier 2024 — Janvier 2026",
+        "period": "Janvier 2024 — Aujourd'hui",
         "role": "Développeur Full-stack",
-        "company": "STMicroelectronics - System Research & Application",
-        "location": "Catane, Italie",
-        "description": "Conception et livraison d'applications web de bout en bout, de l'architecture au déploiement, avec une grande attention portée à la propreté des interfaces et la performance. Fort accent sur les paradigmes de programmation fonctionnelle et les bonnes pratiques de développement."
+        "company": "Entreprise Exemple",
+        "location": "Ville, Pays",
+        "description": "Décrivez ici votre expérience la plus récente. Présentez votre périmètre, vos responsabilités techniques et vos résultats."
       }
     }
   },
@@ -22,18 +22,18 @@
     "id": 2,
     "content": {
       "en": {
-        "period": "Sept 2022 —  Aug 2023",
+        "period": "Sep 2022 — Dec 2023",
         "role": "Full-stack Engineer",
-        "company": "Sopra Steria - Aeroline",
-        "location": "Bordeaux, France",
-        "description": "Development tasks in a challenging and large, international project. Part of a team of 3 developers and one product owner. Agile environment with a lot of ownership and responsibilities given to the developers."
+        "company": "Product Team Co.",
+        "location": "Remote",
+        "description": "Describe a second role with a different context. Focus on collaboration, product impact, and technologies used."
       },
       "fr": {
-        "period": "Septembre 2022 — Août 2023",
+        "period": "Septembre 2022 — Décembre 2023",
         "role": "Développeur Full-stack",
-        "company": "Sopra Steria - Aeroline",
-        "location": "Bordeaux, France",
-        "description": "Tâches de développement dans un projet d'envergure du secteur de l'aéronautique, toujours dans un contexte agile. Dans la continuité du travail fourni en stage avec toujours un ownership important et des responsabilités accrues."
+        "company": "Equipe Produit",
+        "location": "Télétravail",
+        "description": "Décrivez un second poste dans un contexte différent. Mettez en avant la collaboration, l'impact produit et les technologies utilisées."
       }
     }
   },
@@ -41,18 +41,18 @@
     "id": 3,
     "content": {
       "en": {
-        "period": "May 2022 - Aug 2022",
-        "role": "Full-stack Developer Intern",
-        "company": "Sopra Steria - Aeroline",
-        "location": "Bordeaux, France",
-        "description": "Took part in development tasks as a member of a team of 4, contributing to a project for a major actor in the aeronautical industry. Developed a new module for the core application from start to finish, including design, development, testing and deployment. Gained experience in working in a large codebase and following best practices for maintainable code."
+        "period": "May 2021 — Aug 2022",
+        "role": "Junior Developer / Internship",
+        "company": "Starter Studio",
+        "location": "City, Country",
+        "description": "Describe an internship, apprenticeship, or early-career role. Explain what you built and what you learned."
       },
       "fr": {
-        "period": "Mai 2022 - Août 2022",
-        "role": "Stagiaire Développeur Full-stack",
-        "company": "Sopra Steria - Aeroline",
-        "location": "Bordeaux, France",
-        "description": "Participation à des tâches de développement en tant que membre d'une équipe de 4 personnes, contribuant à un projet pour un acteur majeur de l'industrie aéronautique. Développement de A à Z d'un nouveau module pour l'application, y compris la conception, le développement, les tests et le déploiement. Expérience sur une codebase très large, dans le respect des bonnes pratiques avec beaucoup de code review."
+        "period": "Mai 2021 — Août 2022",
+        "role": "Développeur Junior / Stage",
+        "company": "Studio Démarrage",
+        "location": "Ville, Pays",
+        "description": "Décrivez un stage, une alternance ou un premier poste. Expliquez ce que vous avez construit et ce que vous avez appris."
       }
     }
   }

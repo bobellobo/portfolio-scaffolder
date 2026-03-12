@@ -1,92 +1,74 @@
 [
   {
-    "id": 5,
-    "content": {
-      "en": {
-        "title": "Portfolio Template Scaffold (WIP)",
-        "description": "I am currently turning this resume website into a reusable starter template so developers (or others) can scaffold their own portfolio quickly. The goal is to provide clean structure, bilingual content support, modular sections, and export capabilities that can be customized with minimal setup. This is currently a work in progress.",
-        "shortDescription": "This resume website is being converted into a reusable portfolio template for scaffolding your own portfolio. Work in progress."
-      },
-      "fr": {
-        "title": "Modèle de portfolio réutilisable (WIP)",
-        "description": "Je transforme ce site de CV en template réutilisable pour permettre aux développeurs de générer rapidement leur propre portfolio. L'objectif est de proposer une structure claire, un support bilingue, des sections modulaires et des capacités d'export facilement personnalisables. Ce projet est actuellement en cours de réalisation.",
-        "shortDescription": "Ce site de CV est en cours de transformation en template réutilisable pour générer son propre portfolio, pour permettre une personnalisation rapide et facile. Projet en cours."
-      }
-    },
-    "image": "images/business-portfolio-icon.avif",
-    "technologies": ["Vue 3", "Vite", "TypeScript", "i18n"],
-    "link": "#"
-  },
-  {
     "id": 1,
     "content": {
       "en": {
-        "title": "WB2MX2",
-        "description": "An agnostic approach for API oriented systems integration. This project focuses on creating a flexible and scalable solution for integrating various APIs in a seamless manner. The main goal is to provide a unified interface for developers to interact with different APIs without worrying about the underlying complexities. In this case study, the solution was implemented as a templating system to integrate various APIs and ensure inter-operability of the STM32 Motor Control Ecosystem. This project led to a patent application.",
-        "shortDescription": "Agnostic approach for API oriented systems integration and inter-operability. Part of the STM32 Motor Control SDK. \nLed to a patent application."
+        "title": "Portfolio Template",
+        "description": "A reusable bilingual portfolio template focused on clean structure, editable content files, and optional resume export. Replace this text with your own project story and outcomes.",
+        "shortDescription": "Reusable portfolio template with multilingual content and export support."
       },
       "fr": {
-        "title": "WB2MX2",
-        "description": "Développement d'une approche agnostique pour l'intégration de systèmes d'API. Création d'une solution flexible et évolutive pour intégrer diverses API de manière transparente. L'objectif principal est de fournir une interface unifiée permettant aux développeurs d'interagir avec différentes API sans se soucier des complexités sous-jacentes. Un dépôt de brevet a été déposé pour le design de ce système de templating.",
-        "shortDescription": "Approche agnostique pour l'intégration de systèmes orientés API via l'implémentation d'un système flexible et évolutif de templating. A conduit à une demande de brevet."
+        "title": "Template Portfolio",
+        "description": "Un template de portfolio bilingue réutilisable, avec structure claire, fichiers de contenu éditables et export de CV optionnel. Remplacez ce texte par votre propre projet et vos résultats.",
+        "shortDescription": "Template de portfolio réutilisable avec contenu multilingue et export."
       }
     },
-    "image": "images/wb2mx.avif",
-    "technologies": ["EffectTS", "Typescript", "NodeJS", "Functional Programming", "Eta", "Handlebars"],
-    "link": "https://www.st.com/content/st_com/en/ecosystems/stm32-motor-control-ecosystem.html"
+    "image": "images/business-portfolio-icon.avif",
+    "technologies": ["Vue 3", "Vite", "TypeScript", "Vue I18n"],
+    "link": "#"
   },
   {
     "id": 2,
     "content": {
       "en": {
-        "title": "Estimate (eDesignSuite)",
-        "description": "Estimation tool for circuit design and lifetime estimations. Refactored the frontend, reduced the technical debt over the span of 8 months. Then I created a SVG manager toolchart for circuit design with d3.js.",
-        "shortDescription": "Estimation tool for circuit design and lifetime estimations. Refactored the whole frontend, especially the SVG toolchart."
+        "title": "Data Dashboard",
+        "description": "Example project placeholder for a dashboard product. Summarize the user problem, your contribution, and any performance or UX improvements.",
+        "shortDescription": "Template placeholder for a data-focused web application."
       },
       "fr": {
-        "title": "Estimate (eDesignSuite)",
-        "description": "Outil d'estimation pour la conception de circuits et les estimations de durée de vie. Tâches de refonte et de réduction de la dette technique du frontend. Création d'un outil de design de circuit firmware avec d3.js et des données SVG.",
-        "shortDescription": "Outil d'estimation pour la conception de circuits et les estimations de durée de vie. Refonte complète du frontend."
+        "title": "Tableau de bord Data",
+        "description": "Projet exemple pour un produit orienté dashboard. Résumez le problème utilisateur, votre contribution et les améliorations UX ou performance.",
+        "shortDescription": "Placeholder pour une application web orientée données."
       }
     },
     "image": "images/estimate.png",
-    "technologies": ["Angular", "Redux", "D3.js", "ramda", "RxJS", "TypeScript", "Functional Programming", "Docker", "WSL", "MongoDB"],
-    "link": "https://eds.st.com/eds-console/"
+    "technologies": ["TypeScript", "Vue", "D3.js", "CSS"],
+    "link": "#"
   },
   {
     "id": 3,
     "content": {
       "en": {
-        "title": "AeroWebb - Module GAV",
-        "description": "Developped a whole new module as a part of the AeroWebb suite, made for the management of D type checks in aeronautical maintenance. It provides a comprehensive solution for planning, tracking and managing D checks operations. With this module, users can easily organize tasks, track progress and ensure efficient maintenance of aircrafts.",
-        "shortDescription": "Developped a whole new module as a part of the AeroWebb suite, made for the management of D type checks in aeronautical maintenance."
+        "title": "Mobile Companion App",
+        "description": "Example placeholder for a mobile or cross-platform app. Explain product goals, architecture choices, and collaboration process.",
+        "shortDescription": "Template placeholder for a mobile-first product case study."
       },
       "fr": {
-        "title": "AeroWebb - Module GAV",
-        "description": "Développement d'un tout nouveau module pour la gestion avancée des grandes visites pour la maintenance aéronautique. Ce module est intégré au coeur de la plateforme AeroWebb, offrant une solution complète pour la planification, le suivi et la gestion des grandes visites. Grâce à ce module, les utilisateurs peuvent facilement organiser les tâches, suivre les progrès et assurer une maintenance efficace des aéronefs. ",
-        "shortDescription": "Développement d'un tout nouveau module pour la gestion avancée des grandes visites pour la maintenance aéronautique. Module intégré au coeur de la plateforme AeroWebb."
+        "title": "Application Mobile Compagnon",
+        "description": "Placeholder d'exemple pour une application mobile ou cross-platform. Décrivez les objectifs produit, les choix d'architecture et la collaboration.",
+        "shortDescription": "Placeholder pour une étude de cas mobile orientée produit."
       }
     },
-    "image": "images/aero.webp",
-    "technologies": ["Angular", "RxJS", "TypeScript", "Java", "PostgreSQL", "Tomcat", "Hibernate"],
-    "link": "https://2moro.fr/aerowebb"
+    "image": "images/cardapp.png",
+    "technologies": ["React Native", "TypeScript", "Firebase"],
+    "link": "#"
   },
   {
     "id": 4,
     "content": {
       "en": {
-        "title": "Multi-player card game app",
-        "description": "A React Native based application using Firebase for real-time multiplayer card gaming. Designed for playing with friends on the go when you've forgotten to bring a deck. It is structured like live quizz or live game apps like Kahoot with real-time updates, and a simple room ID system. This was a quick side project that I am planning to review soon to improve the codebase and the features.",
-        "shortDescription": "An app dealing with real-time multiplayer card gaming. Designed for playing with friends on the go."
+        "title": "Open Source Contribution",
+        "description": "Optional placeholder entry to showcase open source work, internal tooling, or technical writing. Replace this with your own work sample.",
+        "shortDescription": "Template placeholder for open source or internal tools."
       },
       "fr": {
-        "title": "Application mobile pour jeu de cartes multijoueur",
-        "description": "Application basée sur React Native + Firebase pour jouer aux cartes en multijoueur et en temps réel. Conçue pour jouer à des jeux simples entre amis lorsque tout le monde a oublié d'apporter un jeu de cartes. Elle est structurée comme des applications de quiz en direct comme Kahoot ou de jeux en direct avec des mises à jour en temps réel et un système simple d'identifiant de session. Il s'agit d'un projet annexe sur lequel j'ai prévu de refaire une passe pour ajouter des features et améliorer le code.",
-        "shortDescription": "Application mobile pour jeu de cartes en multijoueur. Conçue pour jouer avec des amis en déplacement."
+        "title": "Contribution Open Source",
+        "description": "Entrée optionnelle pour présenter des contributions open source, des outils internes ou du contenu technique. Remplacez par vos propres réalisations.",
+        "shortDescription": "Placeholder de template pour open source ou outils internes."
       }
     },
     "image": "images/cardapp.png",
-    "technologies": ["React Native", "Expo", "Firebase", "TypeScript"],
+    "technologies": ["Documentation", "Automation", "CI/CD"],
     "link": "#"
   }
 ]

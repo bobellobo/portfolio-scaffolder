@@ -13,7 +13,7 @@
     "contact": "Contact"
   },
   "profile": {
-    "universityLabel": "Ecole Nationale Supérieure de Cognitique",
+    "universityLabel": "Votre université",
     "skillsTitle": "Aperçu des compétences"
   },
   "projects": {
@@ -29,7 +29,7 @@
     "description": "N'hésitez pas à me contacter pour des projets de collaboration, je suis toujours ouvert à de nouveaux projets ou simplement pour discuter !"
   },
   "footer": {
-    "copyright": "© 2026 Titouan Guedon. Tous droits réservés.",
+    "copyright": "© 2026 Template Portfolio. Tous droits réservés.",
     "links": {
       "linkedin": "LinkedIn",
       "github": "GitHub",
@@ -48,7 +48,7 @@
     "actionsLabel": "Actions d'export",
     "backToPortfolio": "Retour au portfolio",
     "exportPdfJpeg": "Exporter PDF / JPEG",
-    "documentLabel": "Vue d'export de Titouan Guedon",
+    "documentLabel": "Vue d'export du portfolio",
     "role": "Développeur Full-stack",
     "contactLinks": "Liens de contact",
     "profile": "Profil",
@@ -59,6 +59,6 @@
     "previewOffHint": "Desactiver le mode apercu impression",
     "switchToFrench": "Passer la langue en français",
     "switchToEnglish": "Passer la langue en anglais",
-    "photoAlt": "Portrait de Titouan Guedon"
+    "photoAlt": "Photo de profil"
   }
 }

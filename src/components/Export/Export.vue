@@ -1,7 +1,7 @@
 <template>
   <main :class="['resume-page', { 'print-preview': isPrintPreview }]">
     <div class="resume-toolbar" role="toolbar" :aria-label="$t('exportView.actionsLabel')">
-      <a class="toolbar-link" href="/resume/">{{ $t('exportView.backToPortfolio') }}</a>
+      <a class="toolbar-link" :href="portfolioHomeLink">{{ $t('exportView.backToPortfolio') }}</a>
       <button
         type="button"
         class="toolbar-button"
@@ -34,18 +34,18 @@
             decoding="async"
           >
           <div>
-            <h1 class="resume-name">Titouan Guedon</h1>
+            <h1 class="resume-name">{{ profileIdentity.fullName }}</h1>
             <p class="resume-role">{{ $t('exportView.role') }}</p>
           </div>
         </div>
         <ul class="resume-links" :aria-label="$t('exportView.contactLinks')">
-          <li><a href="mailto:titouanguedon@proton.me">titouanguedon@proton.me</a></li>
+          <li><a :href="emailLink">{{ profileIdentity.email }}</a></li>
           <li>
-            <a href="https://www.linkedin.com/in/titouan-guedon-150438198/" target="_blank" rel="noopener noreferrer">
+            <a :href="profileIdentity.linkedinUrl" target="_blank" rel="noopener noreferrer">
               LinkedIn
             </a>
           </li>
-          <li><a href="https://github.com/bobellobo" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a :href="profileIdentity.githubUrl" target="_blank" rel="noopener noreferrer">GitHub</a></li>
         </ul>
       </header>
 
@@ -55,7 +55,7 @@
           {{ exportProfileDescriptionParts.before }}
           <a
             class="inline-link"
-            href="https://ensc.bordeaux-inp.fr/fr/presentation-de-l-ensc"
+            :href="profileIdentity.universityUrl"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -94,11 +94,11 @@
         <i18n-t keypath="exportView.attribution" tag="span">
           <template #link>
             <a
-              href="https://bobellobo.github.io/resume/"
+              :href="profileIdentity.portfolioUrl"
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://bobellobo.github.io/resume/
+              {{ profileIdentity.portfolioUrl }}
             </a>
           </template>
         </i18n-t>
@@ -112,9 +112,9 @@ import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useExperiencesData } from '../../content/data/experiences'
 import { useSkillsData } from '../../content/data/skills'
-import { getProfileContent, splitUniversityPlaceholder } from '../../content/data/profile'
+import { getProfileContent, getProfileIdentity, splitUniversityPlaceholder } from '../../content/data/profile'
 import { getSupportedLocale } from '../../content/locale'
-import profilePhoto from '../../../content/projects/images/bibi.jpeg'
+import profilePhoto from '../../../content/projects/images/business-portfolio-icon.avif'
 
 const LANGUAGE_STORAGE_KEY = 'language'
 
@@ -122,10 +122,13 @@ const { locale, t } = useI18n()
 const isPrintPreview = ref(false)
 const { experiences } = useExperiencesData()
 const { skills } = useSkillsData()
+const profileIdentity = getProfileIdentity()
 
 const currentLocale = computed(() => getSupportedLocale(locale.value))
 const exportProfileDescription = computed(() => getProfileContent(currentLocale.value).exportDescription)
 const exportProfileDescriptionParts = computed(() => splitUniversityPlaceholder(exportProfileDescription.value))
+const portfolioHomeLink = import.meta.env.BASE_URL
+const emailLink = computed(() => `mailto:${profileIdentity.email}`)
 
 const languageSwitchLabel = computed(() => (locale.value === 'fr' ? 'EN' : 'FR'))
 const languageSwitchTitle = computed(() => (

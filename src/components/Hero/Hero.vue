@@ -8,7 +8,7 @@
             {{ profileDescriptionParts.before }}
             <a
               class="inline-link"
-              href="https://ensc.bordeaux-inp.fr/fr/presentation-de-l-ensc"
+              :href="profileIdentity.universityUrl"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -17,7 +17,7 @@
             {{ profileDescriptionParts.after }}
           </p>
         </div>
-        <img class="hero-photo" :src="heroPhoto" alt="Bibi photo" />
+        <img class="hero-photo" :src="heroPhoto" :alt="$t('exportView.photoAlt')" />
       </div>
       <button
         class="scroll-next-btn"
@@ -34,11 +34,12 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
-import heroPhoto from '@content/projects/images/bibi.jpeg'
-import { getProfileContent, splitUniversityPlaceholder } from '../../content/data/profile'
+import heroPhoto from '@content/projects/images/business-portfolio-icon.avif'
+import { getProfileContent, getProfileIdentity, splitUniversityPlaceholder } from '../../content/data/profile'
 import { getSupportedLocale } from '../../content/locale'
 
 const { locale } = useI18n()
+const profileIdentity = getProfileIdentity()
 
 const currentLocale = computed(() => getSupportedLocale(locale.value))
 const profileDescription = computed(() => getProfileContent(currentLocale.value).description)

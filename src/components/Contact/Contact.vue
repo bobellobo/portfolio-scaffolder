@@ -4,13 +4,13 @@
       <h2 class="section-title">{{ $t('contact.title') }}</h2>
       <p>{{ $t('contact.description') }}</p>
       <div class="contact-links">
-        <a href="https://www.linkedin.com/in/titouan-guedon-150438198/" target="_blank" rel="noreferrer" class="contact-button">
+        <a :href="profileIdentity.linkedinUrl" target="_blank" rel="noreferrer" class="contact-button">
           {{ $t('footer.links.linkedin') }}
         </a>
-        <a href="https://github.com/bobellobo" target="_blank" rel="noreferrer" class="contact-button">
+        <a :href="profileIdentity.githubUrl" target="_blank" rel="noreferrer" class="contact-button">
           {{ $t('footer.links.github') }}
         </a>
-        <a href="mailto:titouanguedon@proton.me" target="_blank" rel="noreferrer" class="contact-button">
+        <a :href="emailLink" target="_blank" rel="noreferrer" class="contact-button">
           {{ $t('footer.links.email') }}
         </a>
       </div>
@@ -19,9 +19,11 @@
 </template>
 
 <script setup lang="ts">
-import { useI18n } from 'vue-i18n'
+import { computed } from 'vue'
+import { getProfileIdentity } from '../../content/data/profile'
 
-useI18n()
+const profileIdentity = getProfileIdentity()
+const emailLink = computed(() => `mailto:${profileIdentity.email}`)
 </script>
 
 <style scoped src="./Contact.css"></style>

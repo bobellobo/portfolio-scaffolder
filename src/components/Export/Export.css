@@ -2,8 +2,8 @@
   min-height: 100vh;
   padding: 2rem 1rem 3rem;
   background:
-    radial-gradient(circle at 20% 10%, rgba(194, 65, 12, 0.15), transparent 42%),
-    linear-gradient(180deg, #f3efe9 0%, #eceff3 100%);
+    radial-gradient(circle at 20% 10%, rgba(0, 102, 255, 0.15), transparent 42%),
+    linear-gradient(180deg, #edf3ff 0%, #eef2f8 100%);
   color: #1f2937;
   font-family: 'Manrope', sans-serif;
 }
@@ -31,14 +31,14 @@
 
 .toolbar-link:hover,
 .toolbar-button:hover {
-  border-color: #c2410c;
-  color: #c2410c;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .toolbar-button-active {
-  border-color: #c2410c;
-  color: #c2410c;
-  background: color-mix(in srgb, #c2410c 8%, #ffffff);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  background: color-mix(in srgb, var(--primary-color) 8%, #ffffff);
 }
 
 .resume-sheet {
@@ -107,7 +107,7 @@
 }
 
 .resume-links a:hover {
-  color: #c2410c;
+  color: var(--primary-color);
 }
 
 .resume-section {
@@ -118,7 +118,7 @@
   margin: 0 0 0.55rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: #c2410c;
+  color: var(--primary-color);
   font-size: 0.9rem;
 }
 
@@ -201,7 +201,7 @@
 }
 
 .inline-link {
-  color: #c2410c;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -225,7 +225,7 @@
 }
 
 .export-attribution a:hover {
-  color: #c2410c;
+  color: var(--primary-color);
 }
 
 @media screen and (max-width: 980px) {

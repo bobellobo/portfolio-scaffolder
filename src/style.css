@@ -3,8 +3,8 @@
 
 /* ========== CSS Variables ========== */
 :root {
-    --primary-color: #c2410c;
-    --secondary-color: #9a3412;
+    --primary-color: #0066ff;
+    --secondary-color: #0047cc;
     --text-dark: #1f2937;
     --text-light: #6b7280;
     --bg-light: #f9fafb;
@@ -24,12 +24,12 @@
     --project-placeholder-start: #e5e7eb;
     --project-placeholder-end: #d1d5db;
     --overlay-color: rgba(0, 0, 0, 0.5);
-    --focus-ring: rgba(194, 65, 12, 0.32);
+    --focus-ring: rgba(0, 102, 255, 0.32);
 }
 
 [data-theme='dark'] {
-    --primary-color: #ea580c;
-    --secondary-color: #c2410c;
+    --primary-color: #3b82ff;
+    --secondary-color: #1d4ed8;
     --text-dark: #f5f7fa;
     --text-light: #a7afba;
     --bg-light: #1b2028;
@@ -49,7 +49,7 @@
     --project-placeholder-start: #313947;
     --project-placeholder-end: #434c5d;
     --overlay-color: rgba(0, 0, 0, 0.65);
-    --focus-ring: rgba(234, 88, 12, 0.38);
+    --focus-ring: rgba(59, 130, 255, 0.38);
 }
 
 /* ========== General Styles ========== */

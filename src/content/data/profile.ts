@@ -6,7 +6,17 @@ export interface ProfileTextContent {
   exportDescription: string
 }
 
+export interface ProfileIdentity {
+  fullName: string
+  email: string
+  linkedinUrl: string
+  githubUrl: string
+  portfolioUrl: string
+  universityUrl: string
+}
+
 interface ProfileData {
+  identity: ProfileIdentity
   content: {
     en: ProfileTextContent
     fr: ProfileTextContent
@@ -15,6 +25,8 @@ interface ProfileData {
 
 const UNIVERSITY_TOKEN = '{university}'
 const profileData = rawProfile as ProfileData
+
+export const getProfileIdentity = (): ProfileIdentity => profileData.identity
 
 export const getProfileContent = (locale: SupportedLocale): ProfileTextContent => (
   locale === 'fr' ? profileData.content.fr : profileData.content.en
