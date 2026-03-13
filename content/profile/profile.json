@@ -1,6 +1,6 @@
 {
   "identity": {
-    "fullName": "Your Name",
+    "fullName": "John Doe",
     "photo": "profile/images/profile-placeholder.svg",
     "email": "you@example.com",
     "portfolioUrl": "https://example.com"
@@ -23,10 +23,10 @@
     },
     {
       "label": {
-        "en": "Channel 2",
-        "fr": "Canal 2"
+        "en": "See a joke",
+        "fr": "Voir une blague"
       },
-      "url": "https://example.com/channel-2",
+      "url": "https://icanhazdadjoke.com/",
       "includeInExport": false
     }
   ],
@@ -36,7 +36,7 @@
       "exportDescription": "Generic profile example. Replace this sentence with your own concise summary for export documents."
     },
     "fr": {
-      "description": "Bonjour!\nCeci est un exemple de profil totalement générique. Vous pouvez mentionner votre parcours, vos objectifs, ou une étape marquante comme {{link:https://example.com|un exemple de lien intégré}}.\n\nRemplacez ce texte par votre résumé, vos domaines forts et le type d'opportunités que vous recherchez.",
+      "description": "Bonjour!\nCeci est un exemple de profil totalement générique. Vous pouvez mentionner votre parcours, vos objectifs, ou une étape marquante comme {{link:https://example.com|un exemple de lien intégré}}.\n\nRemplacez ce texte par une courte description, vos points forts et le type d'opportunités que vous recherchez.",
       "exportDescription": "Exemple de profil générique. Remplacez cette phrase par votre propre résumé concis pour les documents exportés."
     }
   }
