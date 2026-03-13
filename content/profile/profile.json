@@ -1,10 +1,9 @@
 {
   "identity": {
     "fullName": "Your Name",
-    "photo": "projects/images/business-portfolio-icon.avif",
+    "photo": "profile/images/profile-placeholder.svg",
     "email": "you@example.com",
-    "linkedinUrl": "https://www.linkedin.com/in/your-handle/",
-    "portfolioUrl": "https://your-username.github.io/your-portfolio/"
+    "portfolioUrl": "https://example.com"
   },
   "contactLinks": [
     {
@@ -17,28 +16,28 @@
     },
     {
       "label": {
-        "en": "LinkedIn",
-        "fr": "LinkedIn"
+        "en": "Linkedin",
+        "fr": "Linkedin"
       },
-      "url": "https://www.linkedin.com/in/your-handle/"
+      "url": "https://linkedin.com"
     },
     {
       "label": {
-        "en": "Portfolio",
-        "fr": "Portfolio"
+        "en": "Channel 2",
+        "fr": "Canal 2"
       },
-      "url": "https://your-username.github.io/your-portfolio/",
+      "url": "https://example.com/channel-2",
       "includeInExport": false
     }
   ],
   "content": {
     "en": {
-      "description": "Hi there!\nI'm a full-stack developer trained at {{link:https://example.edu|Your University}}. I enjoy building maintainable web products with a strong focus on usability, clean architecture, and performance.\n\nUse this section to introduce your background, your strongest technical skills, and the type of opportunities you are looking for.",
-      "exportDescription": "Full-stack developer trained at {{link:https://example.edu|Your University}}. I combine user-centered product thinking with practical engineering, from architecture to delivery. Replace this sample summary with your own experience, strengths, and target role."
+      "description": "Hello!\nThis is a fully generic profile example. You can mention your background, your goals, or a notable milestone such as {{link:https://example.com|an embedded link example}}.\n\nReplace this text with your own summary, strongest domains, and the type of opportunities you are looking for.",
+      "exportDescription": "Generic profile example. Replace this sentence with your own concise summary for export documents."
     },
     "fr": {
-      "description": "Salut!\nJe suis un développeur full-stack formé à {{link:https://example.edu|votre université}}. J'aime créer des produits web maintenables avec une attention forte portée à l'expérience utilisateur, à l'architecture et à la performance.\n\nUtilisez cette section pour présenter votre parcours, vos compétences principales et le type d'opportunités que vous recherchez.",
-      "exportDescription": "Développeur full-stack formé à {{link:https://example.edu|votre université}}. Je combine une approche produit centrée utilisateur avec une exécution technique solide, de l'architecture à la livraison. Remplacez ce résumé par votre propre expérience, vos points forts et le poste visé."
+      "description": "Bonjour!\nCeci est un exemple de profil totalement generique. Vous pouvez mentionner votre parcours, vos objectifs, ou une etape marquante comme {{link:https://example.com|un exemple de lien integre}}.\n\nRemplacez ce texte par votre resume, vos domaines forts et le type d'opportunites que vous recherchez.",
+      "exportDescription": "Exemple de profil generique. Remplacez cette phrase par votre propre resume concis pour les documents exportes."
     }
   }
 }

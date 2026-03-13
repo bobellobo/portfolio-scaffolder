@@ -3,72 +3,72 @@
     "id": 1,
     "content": {
       "en": {
-        "title": "Portfolio Template",
-        "description": "A reusable bilingual portfolio template focused on clean structure, editable content files, and optional resume export. Replace this text with your own project story and outcomes.",
-        "shortDescription": "Reusable portfolio template with multilingual content and export support."
+        "title": "Project 1",
+        "description": "Replace this example with your own project summary. Describe the context, your responsibilities, and the result in one or two concise paragraphs.",
+        "shortDescription": "Short description for project 1."
       },
       "fr": {
-        "title": "Template Portfolio",
-        "description": "Un template de portfolio bilingue réutilisable, avec structure claire, fichiers de contenu éditables et export de CV optionnel. Remplacez ce texte par votre propre projet et vos résultats.",
-        "shortDescription": "Template de portfolio réutilisable avec contenu multilingue et export."
+        "title": "Projet 1",
+        "description": "Remplacez cet exemple par le resume de votre propre projet. Decrivez le contexte, vos responsabilites et le resultat en un ou deux paragraphes.",
+        "shortDescription": "Description du projet 1."
       }
     },
-    "image": "images/business-portfolio-icon.avif",
-    "technologies": ["Vue 3", "Vite", "TypeScript", "Vue I18n"],
-    "link": "#"
+    "image": "images/project-placeholder.svg",
+    "technologies": ["Category A", "Category B", "Category C"],
+    "link": "https://example.com"
   },
   {
     "id": 2,
     "content": {
       "en": {
-        "title": "Data Dashboard",
-        "description": "Example project placeholder for a dashboard product. Summarize the user problem, your contribution, and any performance or UX improvements.",
-        "shortDescription": "Template placeholder for a data-focused web application."
+        "title": "Project 2",
+        "description": "Use this block as a neutral example. Add your own objective, main actions, and measurable outcomes when your real content is ready.",
+        "shortDescription": "Short description for project 2."
       },
       "fr": {
-        "title": "Tableau de bord Data",
-        "description": "Projet exemple pour un produit orienté dashboard. Résumez le problème utilisateur, votre contribution et les améliorations UX ou performance.",
-        "shortDescription": "Placeholder pour une application web orientée données."
+        "title": "Projet 2",
+        "description": "Utilisez ce bloc comme exemple neutre. Ajoutez votre objectif, vos actions principales et vos resultats mesurables quand votre contenu sera pret.",
+        "shortDescription": "Description courte pour le projet 2."
       }
     },
-    "image": "images/estimate.png",
-    "technologies": ["TypeScript", "Vue", "D3.js", "CSS"],
-    "link": "#"
+    "image": "images/project-placeholder.svg",
+    "technologies": ["Category A", "Category D", "Category E"],
+    "link": "https://example.com"
   },
   {
     "id": 3,
     "content": {
       "en": {
-        "title": "Mobile Companion App",
-        "description": "Example placeholder for a mobile or cross-platform app. Explain product goals, architecture choices, and collaboration process.",
-        "shortDescription": "Template placeholder for a mobile-first product case study."
+        "title": "Project 3",
+        "description": "Another neutral entry. Replace with your own project context, approach, and what changed after delivery.",
+        "shortDescription": "Short description for project 3."
       },
       "fr": {
-        "title": "Application Mobile Compagnon",
-        "description": "Placeholder d'exemple pour une application mobile ou cross-platform. Décrivez les objectifs produit, les choix d'architecture et la collaboration.",
-        "shortDescription": "Placeholder pour une étude de cas mobile orientée produit."
+        "title": "Projet 3",
+        "description": "Autre entree neutre. Remplacez par votre contexte projet, votre approche et ce qui a change apres la livraison.",
+        "shortDescription": "Description courte pour le projet 3."
       }
     },
-    "image": "images/cardapp.png",
-    "technologies": ["React Native", "TypeScript", "Firebase"],
+    "image": "images/project-placeholder.svg",
+    "technologies": ["Category B", "Category F", "Category G"],
     "link": "#"
   },
   {
     "id": 4,
     "content": {
       "en": {
-        "title": "Open Source Contribution",
-        "description": "Optional placeholder entry to showcase open source work, internal tooling, or technical writing. Replace this with your own work sample.",
-        "shortDescription": "Template placeholder for open source or internal tools."
+        "title": "Project 4",
+        "description": "Optional generic slot for any additional work sample. Replace this text entirely with your own project details.",
+        "shortDescription": "Short description for project 4."
       },
       "fr": {
-        "title": "Contribution Open Source",
-        "description": "Entrée optionnelle pour présenter des contributions open source, des outils internes ou du contenu technique. Remplacez par vos propres réalisations.",
-        "shortDescription": "Placeholder de template pour open source ou outils internes."
+        "title": "Projet 4",
+        "description": "Emplacement generique optionnel pour un travail supplementaire. Remplacez integralement ce texte par les details de votre propre projet.",
+        "shortDescription": "Description courte pour le projet 4."
       }
     },
-    "image": "images/cardapp.png",
-    "technologies": ["Documentation", "Automation", "CI/CD"],
+    "image": "images/project-placeholder.svg",
+    "technologies": ["Category C", "Category H", "Category I"],
     "link": "#"
   }
 ]

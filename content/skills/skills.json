@@ -1,77 +1,50 @@
 [
-  {
-    "id": "development",
+    {
+    "id": "domainA",
     "content": {
       "en": {
-        "title": "Development related",
+        "title": "Category A",
         "items": [
-          { "text": "Full-stack web development" },
-          { "text": "TypeScript, JavaScript, and modern frameworks" },
-          { "text": "API design and integration" },
-          { "text": "Functional programming" },
-          { "text": "Clean architecture and maintainable code" }
+          { "text": "You can add/remove skills sections as you want" },
+          { "text": "Skill 2" },
+          { "text": "Skill 3" },
+          { "text": "Skill 4" },
+          { "text": "Optional crossed-out example (check documentation)", "isJoke": true }
         ]
       },
       "fr": {
-        "title": "Développement",
+        "title": "Catégorie A",
         "items": [
-          { "text": "Développement web full-stack" },
-          { "text": "TypeScript, JavaScript et frameworks modernes" },
-          { "text": "Conception et intégration d'API" },
-          { "text": "Programmation fonctionnelle" },
-          { "text": "Architecture propre et code maintenable" }
+          { "text": "Vous pouvez ajouter/enlever des catégories de compétences" },
+          { "text": "Et en modifier le contenu" },
+          { "text": "Compétence 3" },
+          { "text": "Compétence 4" },
+          { "text": "Exemple barré optionnel (voir documentation)", "isJoke": true }
         ]
       }
     }
   },
   {
-    "id": "softSkills",
+    "id": "domainB",
     "content": {
       "en": {
-        "title": "Soft skills",
+        "title": "Category B",
         "items": [
-          { "text": "Clear communication" },
-          { "text": "Collaborative teamwork" },
-          { "text": "Problem solving" },
-          { "text": "Adaptability and continuous learning" },
-          { "text": "Strong ability to work autonomously" },
-          { "text": "Pretty good at foosball", "isJoke": true }
+          { "text": "Time to shine"                      },
+          { "text": "Don't hesitate to lie"              },
+          { "text": "#FakeItUntilYouMakeIt"              },
+          { "text": "Open-heart surgery", "isJoke": true },
+          { "text": "(who cares?)"                       }
         ]
       },
       "fr": {
-        "title": "Soft skills",
+        "title": "Catégorie B",
         "items": [
-          { "text": "Communication claire" },
-          { "text": "Esprit d'équipe et collaboration" },
-          { "text": "Résolution de problèmes" },
-          { "text": "Adaptabilité et apprentissage continu" },
-          { "text": "Forte capacité d'autonomie" },
-          { "text": "Plutôt fort au babyfoot", "isJoke": true }
-        ]
-      }
-    }
-  },
-  {
-    "id": "cognitiveScience",
-    "content": {
-      "en": {
-        "title": "Cognitive science",
-        "items": [
-          { "text": "User behavior analysis" },
-          { "text": "Human-computer interaction principles" },
-          { "text": "Experimental design and interpretation" },
-          { "text": "User-centered design" },
-          { "text": "Proficiency with UX/UI design tools" }
-        ]
-      },
-      "fr": {
-        "title": "Sciences cognitives",
-        "items": [
-          { "text": "Analyse des comportements utilisateurs" },
-          { "text": "Principes d'interaction humain-machine" },
-          { "text": "Conception et interprétation d'expériences" },
-          { "text": "Conception centrée utilisateur" },
-          { "text": "Maîtrise des outils de design UX/UI" }
+          { "text": "C'est le moment d'en faire des caisses"   },
+          { "text": "Personne ne vous en voudra"               },
+          { "text": "#FakeItUntilYouMakeIt"                    },
+          { "text": "Chirurgie à cœur ouvert" , "isJoke": true },
+          { "text": "(qui va vérifier?)"                       }
         ]
       }
     }
@@ -80,21 +53,22 @@
     "id": "languages",
     "content": {
       "en": {
-        "title": "Languages spoken",
+        "title": "Languages",
         "items": [
-          { "text": "French (native)" },
-          { "text": "English (fluent)" },
-          { "text": "Italian (fluent)" },
-          { "text": "Spanish (intermediate)" }
+          { "text": "English (fluent)"             },
+          { "text": "Spanish (intermediate)"       },
+          { "text": "Italian (only to order food)" },
+          { "text": "Mandarin (after 3 drinks)"    }
+    
         ]
       },
       "fr": {
-        "title": "Langues parlées",
+        "title": "Langues",
         "items": [
-          { "text": "Français (langue maternelle)" },
-          { "text": "Anglais (bilingue professionnel)" },
-          { "text": "Italien (bilingue professionnel)" },
-          { "text": "Espagnol (intermédiaire)" }
+          { "text": "Anglais (vairi goude)"      },
+          { "text": "Espagnol (intermédiaire)"   },
+          { "text": "Italien (que au resto)"     },
+          { "text": "Mandarin (après 3 verres)"  }
         ]
       }
     }

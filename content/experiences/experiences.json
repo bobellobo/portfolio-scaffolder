@@ -3,18 +3,18 @@
     "id": 1,
     "content": {
       "en": {
-        "period": "Jan 2024 — Present",
-        "role": "Full-stack Engineer",
-        "company": "Sample Company",
+        "period": "June 2021 — Present",
+        "role": "Role 1",
+        "company": "Organization 1",
         "location": "City, Country",
-        "description": "Describe your most recent role here. Mention your scope, key technical responsibilities, and measurable outcomes."
+        "description": "Describe your most recent experience here."
       },
       "fr": {
-        "period": "Janvier 2024 — Aujourd'hui",
-        "role": "Développeur Full-stack",
-        "company": "Entreprise Exemple",
+        "period": "Juin 2021 — Aujourd'hui",
+        "role": "Role 1",
+        "company": "Organisation 1",
         "location": "Ville, Pays",
-        "description": "Décrivez ici votre expérience la plus récente. Présentez votre périmètre, vos responsabilités techniques et vos résultats."
+        "description": "Décrivez ici votre expérience la plus récente."
       }
     }
   },
@@ -22,18 +22,18 @@
     "id": 2,
     "content": {
       "en": {
-        "period": "Sep 2022 — Dec 2023",
-        "role": "Full-stack Engineer",
-        "company": "Product Team Co.",
-        "location": "Remote",
-        "description": "Describe a second role with a different context. Focus on collaboration, product impact, and technologies used."
+        "period": "August 2017 — April 2021",
+        "role": "Role 2",
+        "company": "Organization 2",
+        "location": "Location",
+        "description": "Describe your experience here."
       },
       "fr": {
-        "period": "Septembre 2022 — Décembre 2023",
-        "role": "Développeur Full-stack",
-        "company": "Equipe Produit",
-        "location": "Télétravail",
-        "description": "Décrivez un second poste dans un contexte différent. Mettez en avant la collaboration, l'impact produit et les technologies utilisées."
+        "period": "Août 2017 — Avril 2021",
+        "role": "Role 2",
+        "company": "Organisation 2",
+        "location": "Lieu",
+        "description": "Décrivez votre expérience ici."
       }
     }
   },
@@ -41,18 +41,18 @@
     "id": 3,
     "content": {
       "en": {
-        "period": "May 2021 — Aug 2022",
-        "role": "Junior Developer / Internship",
-        "company": "Starter Studio",
+        "period": "May 2015 — April 2017",
+        "role": "Role 3",
+        "company": "Organization 3",
         "location": "City, Country",
-        "description": "Describe an internship, apprenticeship, or early-career role. Explain what you built and what you learned."
+        "description": "Describe your experience here."
       },
       "fr": {
-        "period": "Mai 2021 — Août 2022",
-        "role": "Développeur Junior / Stage",
-        "company": "Studio Démarrage",
+        "period": "Mai 2015 — Avril 2017",
+        "role": "Role 3",
+        "company": "Organisation 3",
         "location": "Ville, Pays",
-        "description": "Décrivez un stage, une alternance ou un premier poste. Expliquez ce que vous avez construit et ce que vous avez appris."
+        "description": "Décrivez votre expérience ici."
       }
     }
   }

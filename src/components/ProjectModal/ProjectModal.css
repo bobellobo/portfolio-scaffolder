@@ -132,7 +132,10 @@
 }
 
 .modal-body {
+  display: flex;
+  flex-direction: column;
   padding: 2rem;
+  min-height: 100%;
   overflow: visible;
 }
 
@@ -180,7 +183,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: auto;
+  padding-top: 2rem;
 }
 
 .cta-button {
@@ -255,6 +259,6 @@
 
   .modal-actions {
     gap: 0.75rem;
-    margin-top: 1.5rem;
+    padding-top: 1.5rem;
   }
 }
