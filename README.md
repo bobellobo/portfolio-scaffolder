@@ -80,6 +80,27 @@ To switch presets, update the import at the top of `src/content/data/theme.ts`.
 
 For full details about colors, typography, spacing, shapes, and theme switching, see [Theme & Config Guide](content/themes/README.md).
 
+### Analytics
+You could also add your Google Analytics tracking ID in the index.html file to monitor traffic on your portfolio page.
+There are other analytics tools, like Plausible for example. But since Google Analytics is the most widely used, here is how to add it : 
+
+1. Create a Google Analytics account and get your tracking ID (something like `G-XXXXXXXXXX`).
+2. Open `index.html` and add the following code snippet in the `<head>` section, replacing `G-XXXXXXXXXX` with your actual tracking ID:
+
+```html
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+```
+
+3. Save the file and push your changes to GitHub. 
+Your analytics should now be active and you can monitor traffic on your portfolio page on the Google Analytics dashboard. It may take some time to actually see data coming, but you can test it by visiting your portfolio page (in an incognito tab and without AdBlock ) and checking the Real-Time section in Google Analytics.
 
 
 
