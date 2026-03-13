@@ -14,11 +14,47 @@
       "radiusSm": "0.5rem",
       "radiusTag": "0.3rem"
     },
-    "spacing": {
-      "_comment": "Vertical padding of each section. Increase for an airy layout, decrease for a denser one.",
-      "sectionPaddingY": "6rem"
-    },
-    "light": {
+  "spacing": {
+    "_comment": "Section rhythm and responsive spacing controls.",
+    "sectionPaddingY": "6rem",
+    "sectionPaddingYMd": "4rem",
+    "sectionPaddingYSm": "3.2rem",
+    "sectionPaddingYXs": "2.8rem",
+    "containerPaddingX": "20px",
+    "containerPaddingXMd": "16px",
+    "containerPaddingXSm": "14px",
+    "containerPaddingXXs": "12px",
+    "sectionTitleMarginBottom": "3rem",
+    "sectionTitleMarginBottomMd": "2rem",
+    "sectionTitleMarginBottomSm": "1.5rem",
+    "sectionTitleMarginBottomXs": "1.25rem"
+  },
+  "layout": {
+    "_comment": "Main container width for section content.",
+    "contentMaxWidth": "1020px"
+  },
+  "typography": {
+    "_comment": "Global text sizing scale for headings and sections.",
+    "fontSizeBody": "1rem",
+    "lineHeightBody": "1.6",
+    "h1Size": "2.5rem",
+    "h2Size": "2rem",
+    "h3Size": "1.5rem",
+    "h1SizeMd": "2.1rem",
+    "h2SizeMd": "1.7rem",
+    "h3SizeMd": "1.35rem",
+    "h1SizeSm": "1.8rem",
+    "h2SizeSm": "1.5rem",
+    "h3SizeSm": "1.2rem",
+    "h1SizeXs": "1.5rem",
+    "h2SizeXs": "1.25rem",
+    "h3SizeXs": "1.1rem",
+    "sectionTitleSize": "2rem",
+    "sectionTitleSizeMd": "1.5rem",
+    "sectionTitleSizeSm": "1.35rem",
+    "sectionTitleSizeXs": "1.2rem"
+  },
+  "light": {
     "_comment": "Colors used in light mode (default)",
     "primaryColor": "#0066ff",
     "secondaryColor": "#0047cc",

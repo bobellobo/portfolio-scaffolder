@@ -14,11 +14,47 @@
       "radiusSm": "1rem",
       "radiusTag": "0.75rem"
     },
-    "spacing": {
-      "_comment": "Vertical padding of each section.",
-      "sectionPaddingY": "7rem"
-    },
-    "light": {
+  "spacing": {
+    "_comment": "Design intent: generous vertical breathing room for a warm long-form editorial flow.",
+    "sectionPaddingY": "8.2rem",
+    "sectionPaddingYMd": "5.9rem",
+    "sectionPaddingYSm": "4.7rem",
+    "sectionPaddingYXs": "3.8rem",
+    "containerPaddingX": "28px",
+    "containerPaddingXMd": "22px",
+    "containerPaddingXSm": "18px",
+    "containerPaddingXXs": "14px",
+    "sectionTitleMarginBottom": "3.6rem",
+    "sectionTitleMarginBottomMd": "2.5rem",
+    "sectionTitleMarginBottomSm": "1.9rem",
+    "sectionTitleMarginBottomXs": "1.5rem"
+  },
+  "layout": {
+    "_comment": "Main container width for section content.",
+    "contentMaxWidth": "1120px"
+  },
+  "typography": {
+    "_comment": "Design intent: larger, relaxed reading scale with spacious line-height and calm hierarchy.",
+    "fontSizeBody": "1.08rem",
+    "lineHeightBody": "1.78",
+    "h1Size": "2.9rem",
+    "h2Size": "2.34rem",
+    "h3Size": "1.74rem",
+    "h1SizeMd": "2.45rem",
+    "h2SizeMd": "1.96rem",
+    "h3SizeMd": "1.5rem",
+    "h1SizeSm": "2.08rem",
+    "h2SizeSm": "1.66rem",
+    "h3SizeSm": "1.3rem",
+    "h1SizeXs": "1.68rem",
+    "h2SizeXs": "1.34rem",
+    "h3SizeXs": "1.14rem",
+    "sectionTitleSize": "2.3rem",
+    "sectionTitleSizeMd": "1.72rem",
+    "sectionTitleSizeSm": "1.48rem",
+    "sectionTitleSizeXs": "1.26rem"
+  },
+  "light": {
     "_comment": "Warm terracotta / cream palette",
     "primaryColor": "#c0392b",
     "secondaryColor": "#96281b",

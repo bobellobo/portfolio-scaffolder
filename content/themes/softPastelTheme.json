@@ -15,8 +15,44 @@
     "radiusTag": "0.8rem"
   },
   "spacing": {
-    "_comment": "More breathing room",
-    "sectionPaddingY": "7.5rem"
+    "_comment": "Design intent: very airy premium spacing with broad gutters and generous section rhythm.",
+    "sectionPaddingY": "9.2rem",
+    "sectionPaddingYMd": "6.5rem",
+    "sectionPaddingYSm": "5.2rem",
+    "sectionPaddingYXs": "4.2rem",
+    "containerPaddingX": "30px",
+    "containerPaddingXMd": "24px",
+    "containerPaddingXSm": "18px",
+    "containerPaddingXXs": "14px",
+    "sectionTitleMarginBottom": "4rem",
+    "sectionTitleMarginBottomMd": "2.8rem",
+    "sectionTitleMarginBottomSm": "2.1rem",
+    "sectionTitleMarginBottomXs": "1.6rem"
+  },
+  "layout": {
+    "_comment": "Main container width for section content.",
+    "contentMaxWidth": "1180px"
+  },
+  "typography": {
+    "_comment": "Design intent: large romantic typography with soft contrast and elegant breathing room.",
+    "fontSizeBody": "1.09rem",
+    "lineHeightBody": "1.82",
+    "h1Size": "3.08rem",
+    "h2Size": "2.48rem",
+    "h3Size": "1.86rem",
+    "h1SizeMd": "2.62rem",
+    "h2SizeMd": "2.06rem",
+    "h3SizeMd": "1.56rem",
+    "h1SizeSm": "2.22rem",
+    "h2SizeSm": "1.74rem",
+    "h3SizeSm": "1.34rem",
+    "h1SizeXs": "1.78rem",
+    "h2SizeXs": "1.4rem",
+    "h3SizeXs": "1.2rem",
+    "sectionTitleSize": "2.42rem",
+    "sectionTitleSizeMd": "1.84rem",
+    "sectionTitleSizeSm": "1.56rem",
+    "sectionTitleSizeXs": "1.3rem"
   },
   "light": {
     "_comment": "Pastel day mode",

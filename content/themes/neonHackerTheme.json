@@ -15,8 +15,44 @@
     "radiusTag": "0px"
   },
   "spacing": {
-    "_comment": "Compact terminal-like density",
-    "sectionPaddingY": "4.75rem"
+    "_comment": "Design intent: ultra-compact terminal density with minimal whitespace and snappy scanability.",
+    "sectionPaddingY": "3.6rem",
+    "sectionPaddingYMd": "2.6rem",
+    "sectionPaddingYSm": "2.15rem",
+    "sectionPaddingYXs": "1.8rem",
+    "containerPaddingX": "16px",
+    "containerPaddingXMd": "13px",
+    "containerPaddingXSm": "11px",
+    "containerPaddingXXs": "10px",
+    "sectionTitleMarginBottom": "2.1rem",
+    "sectionTitleMarginBottomMd": "1.45rem",
+    "sectionTitleMarginBottomSm": "1.1rem",
+    "sectionTitleMarginBottomXs": "0.95rem"
+  },
+  "layout": {
+    "_comment": "Main container width for section content.",
+    "contentMaxWidth": "900px"
+  },
+  "typography": {
+    "_comment": "Design intent: tight technical type scale for a cyber UI feel and high information density.",
+    "fontSizeBody": "0.93rem",
+    "lineHeightBody": "1.48",
+    "h1Size": "2.18rem",
+    "h2Size": "1.72rem",
+    "h3Size": "1.3rem",
+    "h1SizeMd": "1.84rem",
+    "h2SizeMd": "1.46rem",
+    "h3SizeMd": "1.16rem",
+    "h1SizeSm": "1.6rem",
+    "h2SizeSm": "1.3rem",
+    "h3SizeSm": "1.05rem",
+    "h1SizeXs": "1.34rem",
+    "h2SizeXs": "1.12rem",
+    "h3SizeXs": "0.98rem",
+    "sectionTitleSize": "1.72rem",
+    "sectionTitleSizeMd": "1.3rem",
+    "sectionTitleSizeSm": "1.14rem",
+    "sectionTitleSizeXs": "1.02rem"
   },
   "light": {
     "_comment": "Light cyber mode",

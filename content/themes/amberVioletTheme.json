@@ -14,11 +14,47 @@
       "radiusSm": "0.25rem",
       "radiusTag": "0px"
     },
-    "spacing": {
-      "_comment": "Vertical padding of each section.",
-      "sectionPaddingY": "5rem"
-    },
-    "light": {
+  "spacing": {
+    "_comment": "Design intent: compact editorial rhythm with reduced whitespace and tighter pacing.",
+    "sectionPaddingY": "4.4rem",
+    "sectionPaddingYMd": "3rem",
+    "sectionPaddingYSm": "2.45rem",
+    "sectionPaddingYXs": "2.1rem",
+    "containerPaddingX": "18px",
+    "containerPaddingXMd": "15px",
+    "containerPaddingXSm": "13px",
+    "containerPaddingXXs": "11px",
+    "sectionTitleMarginBottom": "2.6rem",
+    "sectionTitleMarginBottomMd": "1.8rem",
+    "sectionTitleMarginBottomSm": "1.35rem",
+    "sectionTitleMarginBottomXs": "1.15rem"
+  },
+  "layout": {
+    "_comment": "Main container width for section content.",
+    "contentMaxWidth": "940px"
+  },
+  "typography": {
+    "_comment": "Design intent: crisp body text with expressive serif headlines for a magazine-style contrast.",
+    "fontSizeBody": "0.97rem",
+    "lineHeightBody": "1.56",
+    "h1Size": "2.7rem",
+    "h2Size": "2.15rem",
+    "h3Size": "1.58rem",
+    "h1SizeMd": "2.22rem",
+    "h2SizeMd": "1.78rem",
+    "h3SizeMd": "1.38rem",
+    "h1SizeSm": "1.9rem",
+    "h2SizeSm": "1.54rem",
+    "h3SizeSm": "1.2rem",
+    "h1SizeXs": "1.56rem",
+    "h2SizeXs": "1.28rem",
+    "h3SizeXs": "1.08rem",
+    "sectionTitleSize": "2.2rem",
+    "sectionTitleSizeMd": "1.64rem",
+    "sectionTitleSizeSm": "1.4rem",
+    "sectionTitleSizeXs": "1.18rem"
+  },
+  "light": {
     "_comment": "Colors used in light mode (default) — warm amber/slate palette",
     "primaryColor": "#d97706",
     "secondaryColor": "#b45309",
